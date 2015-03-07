@@ -398,7 +398,7 @@ Object.observe(this.$baseValue97, function() {
 this.$baseValue99 = { value: 0 };
 Object.observe(this.$baseValue98, function() {
   that.$baseValue99.value = parseInt(that.$baseValue98.value) + 1;
-
+  
   if (parseInt(that.$baseValue0.value) <= 1000) {
     window.setTimeout(function() {
       var val = parseInt(that.$baseValue0.value) + 1;
